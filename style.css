@@ -1,0 +1,113 @@
+/****************/
+/*    GENERAL   */
+/****************/
+
+body {
+    text-align:center;
+    background-color: oldlace;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  h1 {
+    margin-bottom: 60px;
+    font-weight: 100;
+    text-align:center;
+  }
+  
+  h2 {
+    font-family: 'Satisfy', cursive;
+    font-size: 20px;
+    margin-top: 60px;
+    color: #1A99AA;
+  }
+  
+  .content {
+    text-align: center;
+  }
+  
+  .user-control label {
+    margin-right: 20px;
+  }
+  
+  .user-control #attraction-category {
+    display: inline-block;
+    background: solid;
+    max-width: 200px;
+    border: 1px solid powderblue;
+    outline: none;
+    margin-bottom:70px;
+  }
+  
+  .source-desc {
+    font-size: 11px;
+    color: #ABB0B3;
+    margin-top: 20px;
+  }
+  
+  
+  /****************/
+  /*   BAR-CHART  */
+  /****************/
+  
+  .bar {
+    fill: powderblue;
+  }
+  
+  .bar:hover {
+    fill: teal;
+  }
+  
+  .axis {
+    font: 11px sans-serif darkgray;
+  }
+  
+  .axis path,
+  .axis line,
+  .domain {
+    fill: none;
+    stroke:darkgray;
+    shape-rendering: crispEdges;
+  }
+  
+  .x-axis path {
+    display: none;
+  }
+  
+  .x-axis text {
+    font-weight: bold;
+    font: darkgray;
+  }
+  
+  .axis-title {
+      fill: #888;
+      font-size: 12px;
+  }
+  
+  
+  /****************/
+  /*   TOOLTIPS   */
+  /****************/
+  
+  #tooltip {
+      position: absolute;
+      width: 200px;
+      height: auto;
+      padding: 10px;
+      background-color: white;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      border-radius: 10px;
+      -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+      -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+      box-shadow: 4px 4px 10px lightblue;
+      pointer-events: none;
+  }
+  #tooltip.hidden {
+      display: none;
+  }
+  #tooltip p {
+      margin: 0;
+      font-family: sans-serif;
+      font-size: 12px;
+      line-height: 20px;
+  }
